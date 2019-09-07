@@ -8,20 +8,11 @@
 <html>
     <head>
         <title>Home</title>
-        <link rel="icon" href="../resources/imagenes/balendlogo.jpeg">
         <script src="../resources/jquery/jquery-3.4.1.js"></script>
         <script src="../resources/bootstrap/js/bootstrap.js"></script>
+        <link rel="icon" href="../resources/imagenes/balendlogo.jpeg">
         <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.css">
-        <style>
-            .starter-template {
-                padding: 3rem 1.5rem;
-                text-align: center;
-              }
-              body {
-                padding-top: 5rem;
-              }
-
-        </style>
+        <link rel="stylesheet" href="../resources/balendstyles/template.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -55,6 +46,41 @@
                 </form>
             </div>
         </nav>
-        <div class="row"></div>
+        <body>
+        <main role="main" class="container">
+            <div class="starter-template">
+                <h1>Bootstrap starter template</h1>
+                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+        </main>
+            <div class="container-fluid">
+                <div class="row margin-bottom">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-12">
+                            <button class="btn btn-danger">Danger</button>
+                            <button class="btn btn-info">Info</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-success">Success</button>
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-secondary">Secundary</button>
+                            <button class="btn btn-dark">Dark</button>
+                            <button class="btn btn-light">Ligth</button
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="checkbox" class="form-control">
+                </div>
+                </div>
+            </div>
+    </body>
 </body>    
 </html>

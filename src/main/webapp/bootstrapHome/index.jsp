@@ -46,6 +46,41 @@
                 </form>
             </div>
         </nav>
-        <div class="row"></div>
+        <body>
+        <main role="main" class="container">
+            <div class="starter-template">
+                <h1>Bootstrap starter template</h1>
+                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+        </main>
+            <div class="container-fluid">
+                <div class="row margin-bottom">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-12">
+                            <button class="btn btn-danger">Danger</button>
+                            <button class="btn btn-info">Info</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-success">Success</button>
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-secondary">Secundary</button>
+                            <button class="btn btn-dark">Dark</button>
+                            <button class="btn btn-light">Ligth</button
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="checkbox" class="form-control">
+                </div>
+                </div>
+            </div>
+    </body>
 </body>    
 </html>
