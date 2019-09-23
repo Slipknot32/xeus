@@ -1,0 +1,40 @@
+/* 
+    Created on : 22/09/2019, 05:20:14 PM
+    Author     : Ricardo Martínez Merlo <ic.ricardo.merlo@gmail.com>
+*/
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.mt-2 {
+    margin-top: 2%;
+}
+
+.mt-4 {
+    margin-top: 4%;
+}
+
+.mt-6 {
+    margin-top: 6%;
+}
+
+.mt-8 {
+    margin-top: 8%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
